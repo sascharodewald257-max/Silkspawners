@@ -1,0 +1,59 @@
+# This line affects the new naming of spawners, to DISABLE this, change the message back to Monster Spawner
+spawnerName: '&aSpawner &e%creature%'
+
+addedEgg: '&2Dodano &e%amount% %creature% jajek potworów &2do twojego ekwipunku.'
+addedEggOtherPlayer: '&2Dodano &e%amount% %creature% jajek potworów &2do ekwipunku gracza &e%player%&2.'
+addedSpawner: '&2Dodano &e%amount% %creature% spawner(ów) &2do twojego ekwipunku.'
+addedSpawnerOtherPlayer: '&2Dodano &e%amount% %creature% spawner(ów) &2do ekwipunku gracza %player%&2.'
+noFreeSlot: '&4Nie masz wolnego miejsca w ekwipunku!'
+noFreeSlotDroppedGround: '&4There is no free slot in the inventory. &eDropping items on the ground instead!'
+
+noPermission: '&4Nie masz uprawnień do używania tej komendy!'
+noPermissionChangingEgg: '&4Nie masz uprawnień do zmiany jajek potworów!'
+noPermissionChangingSpawner: '&4Nie masz uprawnień do zmiany spawnerów!'
+noPermissionFreeEgg: '&4Nie masz uprawnień do otrzymania darmowych jajek potworów!'
+noPermissionFreeSpawner: '&4Nie masz uprawnień do otrzymania darmowego spawnera!'
+noPermissionViewType: '&4Nie masz uprawnień do obejrzenia typu potworów tego spawnera!'
+noPermissionChangingWithEggs: '&4Nie masz uprawnień do zmiany spawnera za pomocą jajek potworów!'
+noPermissionCraft: '&4Nie masz uprawnień do wytworzenia spawnera &e%creature%&4!'
+noPermissionPlace: '&4Nie masz uprawnień do postawienia spawnera &e%creature% &4w tym miejscu!'
+
+changedEgg: '&2SPomyślnie zmieniono na jajko &e%creature%&2.'
+changedSpawner: '&2Pomyślnie zmieniono na spawner &e%creature%&2.'
+
+playerOffline: '&4Gracz jest niedostępny!'
+changingDeniedFactions: '&4Nie możesz zmienić spawnerów innych graczy!'
+changingDeniedWorldGuard: '&4Zmiana spawnera została zabroniona przez ochronę WorldGuard.'
+getSpawnerType: '&2To jest spawner &e%creature% &2.'
+unknownArgument: '&4Nierozpoznana komenda. Wpisz &e/silkspawners help'
+unknownCreature: '&4Nierozpoznany typ potwora: &e%creature%&4.'
+useNumbers: '&4Prosze użyj numerów pomiedzy 1 a 64!'
+noConsole: '&4Nie mozesz użyc tej komendy w konsoli!'
+configsReloaded: '&2Pomyślnie przeładowano konfiguracje!'
+
+spawnerBroken: '&eSpawner &2%creature% &ezostał zniszczony.'
+spawnerPlaced: '&eSpawner &2%creature% &ezostał postawiony.'
+placingDefault: '&eMiejsce domyślnego spawnera (spawner jest nieprawidłowy lub wyłączony)'
+
+informationOfSpawner1: -- Spawner Potworów --
+informationOfSpawner2: '-- Typ: %creature% --'
+informationOfSpawnerBar: 'Spawner Potworów, Typ: &e%creature%'
+
+spawningDenied: '&4Spawnowanie potworów &e%creature% &4jest zabronione!'
+spawning: '&2Spawnowanie &e%creature%'
+noSpawnerHere: '&4Nie można tu umieścić spawnera, ponieważ ten blok jest zablokowany!'
+
+lookAtSpawner: '&4Musisz patrzeć prosto na spawner.'
+spawnerNotDeterminable: '&4Nie masz spawnera lub jajka w ręku lub masz w obu dłoniach. Zostaw jedną rękę pustą.'
+
+noSilkTouch: '&eWybrane narzędzie nie jest wystarczająco silne, aby wydobyć ten spawner – uważaj!'
+
+help: |-
+  &7------&6SilkSpawners v%version% Pomoc&7------
+  &e/ss help &7- &2Wyświetla pomoc.
+  &e/ss list|all &7- &2Wyświetla wszystkie dostępne potwory.
+  &e/ss view|info &7- &2Wyświetla informacje o spawnerze na ktory patrzysz.
+  &e/ss reload|rl &7- &2Przeładowanie pliku konfiguracyjnego.
+  &e/ss change <nowyMob> &7- &2Zmiana rodzaju spawnera, który trzymasz lub na który patrzysz.
+  &e/ss give|add <gracz> <mob> [ilość] &7- &2Daje graczowi spawner lub jajko potworów. Ilość jest opcjonalna
+  &e/ss selfget|i <mob> [ilość] &7- &2Daje ci spawner lub jajko potworów. Ilość jest opcjonalna.
